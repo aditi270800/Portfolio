@@ -200,9 +200,10 @@ const Header = () => {
           </li>
           <li className="w-40 h-14 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#fad7d7] rounded-md">
             <a
+              href="#"
+              role="button"
               onClick={(e) => {
-                e.preventDefault(); // Prevent default link behavior
-                // Use document.execCommand('copy') for better compatibility in iframes
+                e.preventDefault();
                 const phoneNumber = "+91-8630381537";
                 const tempInput = document.createElement("input");
                 document.body.appendChild(tempInput);
