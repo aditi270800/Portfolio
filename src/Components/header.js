@@ -199,9 +199,9 @@ const Header = () => {
             </a>
           </li>
           <li className="w-40 h-14 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#fad7d7] rounded-md">
-            <a
-              href="#"
-              role="button"
+            <button
+              // href="#"
+              // role="button"
               onClick={(e) => {
                 e.preventDefault();
                 const phoneNumber = "+91-8630381537";
@@ -218,7 +218,7 @@ const Header = () => {
               className="flex justify-between items-center w-full text-black px-4 cursor-pointer"
             >
               Phone <BsFillPersonLinesFill size={30} />
-            </a>
+            </button>
           </li>
         </ul>
       </div>
