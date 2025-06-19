@@ -1,6 +1,5 @@
 // import { useAnimation, motion } from "framer-motion";
-import { useEffect, useRef, useState } from "react";
-import { PiGreaterThanBold } from "react-icons/pi";
+import { useState } from "react";
 
 const Project = () => {
   const projectsOverview = [
